@@ -1,0 +1,26 @@
+{
+  "testCase" : [ {
+    "testStep" : [ {
+      "technology" : "web",
+      "scrnShotPath" : null,
+      "excptnMsg" : "org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div ng-if=\"!$ctrl.forceReload\" class=\"mct-img\">...</div> is not clickable at point (817, 450). Other element would receive the click: <ng-transclude ng-class=\"{ 'has-left-scroll' : $ctrl.showScrollLeft, 'has-right-scroll' : $ctrl.showScrollRight }\" class=\"scroller__wrapper expanded\">...</ng-transclude>\n  (Session info: chrome=110.0.5481.104)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'B300LCOK', ip: '10.6.64.156', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.104, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\\Users\\188162\\AppData\\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:52937}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 019cf5c60a483a18a44152735a0436fc",
+      "action" : "click",
+      "locatorEleMap" : {
+        "//*[@id=\"templater_column_cards_60_img_link_1\"]/mct-img/div" : "xpath"
+      },
+      "appstatus" : false,
+      "failedElement" : "xpath : //*[@id=\"templater_column_cards_60_img_link_1\"]/mct-img/div",
+      "healStatus" : "Failure",
+      "healedElement" : "null : NA",
+      "objectName" : null,
+      "pageName" : null,
+      "testStepFailureReason" : "ElementClickInterceptedException"
+    } ],
+    "testCaseName" : "RemoteTestNG"
+  } ],
+  "noSuchEleCount" : 0,
+  "stleTmeOutCount" : 0,
+  "netwrkErrCount" : 0,
+  "othersCount" : 1,
+  "testRunName" : "TestRun1"
+}
