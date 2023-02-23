@@ -37,16 +37,6 @@
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>2.22.2</version>
 				<configuration>
-					<systemProperties>
-						<property>
-							<name>https.proxyHost</name>
-							<value>165.225.104.32</value>
-						</property>
-						<property>
-							<name>https.proxyPort</name>
-							<value>10223</value>
-						</property>
-					</systemProperties>
 					<!-- Enable only while running security tests -->
 					<reuseForks>true</reuseForks>
 					<forkCount>0</forkCount>
