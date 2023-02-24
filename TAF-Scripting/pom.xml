@@ -82,15 +82,15 @@
 				<version>2.5.1</version>
 			</plugin>
 			<!-- To Generate Cucumber Report into User Specified folder -->
-			<!-- <plugin> <groupId>org.codehaus.mojo</groupId> <artifactId>build-helper-maven-plugin</artifactId> 
+			<plugin> <groupId>org.codehaus.mojo</groupId> <artifactId>build-helper-maven-plugin</artifactId> 
 				<version>3.0.0</version> <executions> <execution> <id>timestamp-property</id> 
 				<goals> <goal>timestamp-property</goal> </goals> <configuration> <name>current.time</name> 
 				<pattern>yyyy-MM-dd-HHmmss</pattern> <timeZone>GMT+5:30</timeZone> </configuration> 
-				</execution> </executions> </plugin> -->
-			<!-- <plugin> <groupId>org.apache.maven.plugins</groupId> <artifactId>maven-surefire-plugin</artifactId> 
+				</execution> </executions> </plugin>
+			<plugin> <groupId>org.apache.maven.plugins</groupId> <artifactId>maven-surefire-plugin</artifactId> 
 				<configuration> <testFailureIgnore>true</testFailureIgnore> <suiteXmlFiles> 
 				<suiteXmlFile>testng.xml</suiteXmlFile> </suiteXmlFiles> </configuration> 
-				</plugin> -->
+				</plugin>
 			<plugin>
 				<groupId>net.masterthought</groupId>
 				<artifactId>maven-cucumber-reporting</artifactId>
