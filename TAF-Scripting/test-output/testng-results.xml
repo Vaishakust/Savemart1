@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="161527" started-at="2023-02-24T13:40:54 IST" finished-at="2023-02-24T13:43:35 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:com.scripted.runners.WebTestNGRunner@67d48005]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="161527" started-at="2023-02-24T13:40:54 IST" finished-at="2023-02-24T13:43:35 IST">
+      <class name="com.scripted.runners.WebTestNGRunner">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.scripted.runners.WebTestNGRunner@67d48005]" name="setup" is-config="true" duration-ms="40835" started-at="2023-02-24T13:40:13 IST" finished-at="2023-02-24T13:40:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.scripted.runners.WebTestNGRunner@67d48005]" name="setUpClass" is-config="true" duration-ms="618" started-at="2023-02-24T13:40:54 IST" finished-at="2023-02-24T13:40:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:com.scripted.runners.WebTestNGRunner@67d48005]" name="runScenario" duration-ms="160349" started-at="2023-02-24T13:40:55 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-02-24T13:43:35 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Collect valid links for the App"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Title of your feature"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: net::ERR_CONNECTION_CLOSED
+  (Session info: headless chrome=110.0.5481.104)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'B300LCOK', ip: '192.168.73.151', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.104, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\188162\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:56707}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4dbe3f694922ea963cd3f5ec9d3572fa]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: org.openqa.selenium.WebDriverException: unknown error: net::ERR_CONNECTION_CLOSED
+  (Session info: headless chrome=110.0.5481.104)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'B300LCOK', ip: '192.168.73.151', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.104, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\188162\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:56707}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4dbe3f694922ea963cd3f5ec9d3572fa
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at java.util.concurrent.ForkJoinTask.getThrowableException(ForkJoinTask.java:593)
+at java.util.concurrent.ForkJoinTask.reportException(ForkJoinTask.java:677)
+at java.util.concurrent.ForkJoinTask.invoke(ForkJoinTask.java:735)
+at java.util.stream.ForEachOps$ForEachOp.evaluateParallel(ForEachOps.java:160)
+at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateParallel(ForEachOps.java:174)
+at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:233)
+at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:583)
+at com.scripted.web.accessibility.StepDefinitions.iPerformAccessibilityTestOnTheallPage1(StepDefinitions.java:63)
+at ✽.I perform accessibility test on all the valid links(file:Features/Accessibility/accessibile.feature:9)
+Caused by: org.openqa.selenium.WebDriverException: unknown error: net::ERR_CONNECTION_CLOSED
+  (Session info: headless chrome=110.0.5481.104)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'B300LCOK', ip: '192.168.73.151', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.104, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\188162\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:56707}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4dbe3f694922ea963cd3f5ec9d3572fa
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+at com.scripted.web.accessibility.StepDefinitions.generateReport1(StepDefinitions.java:100)
+at com.scripted.web.accessibility.StepDefinitions.lambda$0(StepDefinitions.java:65)
+at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1382)
+at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+at java.util.stream.ForEachOps$ForEachTask.compute(ForEachOps.java:291)
+at java.util.concurrent.CountedCompleter.exec(CountedCompleter.java:731)
+at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+at java.util.concurrent.ForkJoinPool$WorkQueue.execLocalTasks(ForkJoinPool.java:1040)
+at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1058)
+at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.scripted.runners.WebTestNGRunner@67d48005]" name="tearDownClass" is-config="true" duration-ms="118" started-at="2023-02-24T13:43:35 IST" finished-at="2023-02-24T13:43:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method status="FAIL" signature="teardown()[pri:0, instance:com.scripted.runners.WebTestNGRunner@67d48005]" name="teardown" is-config="true" duration-ms="21977" started-at="2023-02-24T13:43:35 IST" finished-at="2023-02-24T13:43:57 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Unable to load properties filejavax.ws.rs.ProcessingException: javax.net.ssl.SSLHandshakeException: Remote host closed connection during handshake]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Unable to load properties filejavax.ws.rs.ProcessingException: javax.net.ssl.SSLHandshakeException: Remote host closed connection during handshake
+at org.testng.Assert.fail(Assert.java:97)
+at com.scripted.zephyr.zephyrConfig.propSet(zephyrConfig.java:74)
+at com.scripted.integration.JiraUtils.uploadResultsFromCucumberJson(JiraUtils.java:22)
+at com.scripted.configurations.SkriptmateConfigurations.afterSuite(SkriptmateConfigurations.java:152)
+at com.scripted.runners.WebTestNGRunner.teardown(WebTestNGRunner.java:21)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:351)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.scripted.runners.WebTestNGRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
