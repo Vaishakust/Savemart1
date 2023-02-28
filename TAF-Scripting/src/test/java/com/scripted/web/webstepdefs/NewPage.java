@@ -39,7 +39,7 @@ public class NewPage {
 	private WebElement button_wqAddtoCart;
 	@FindBy(xpath = "//span[normalize-space()='Select Options']")
 	private WebElement span_SelectOptions;
-	@FindBy(xpath = "//a[@aria-label='Shop']//span[contains(text(),'Shop')]")
+	@FindBy(xpath = "//a[@aria-label='Shop']//span[contains(text(),'Shop123')]")
 	private WebElement span_aoShop;
 	
 
