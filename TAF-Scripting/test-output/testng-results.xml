@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="350773" started-at="2023-02-28T00:11:39 IST" finished-at="2023-02-28T00:17:29 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:com.scripted.runners.SaveMartRunner@59309333]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="350773" started-at="2023-02-28T00:11:39 IST" finished-at="2023-02-28T00:17:29 IST">
+      <class name="com.scripted.runners.SaveMartRunner">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.scripted.runners.SaveMartRunner@59309333]" name="setup" is-config="true" duration-ms="39405" started-at="2023-02-28T00:10:59 IST" finished-at="2023-02-28T00:11:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.scripted.runners.SaveMartRunner@59309333]" name="setUpClass" is-config="true" duration-ms="1129" started-at="2023-02-28T00:11:39 IST" finished-at="2023-02-28T00:11:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:com.scripted.runners.SaveMartRunner@59309333]" name="runScenario" duration-ms="63608" started-at="2023-02-28T00:11:40 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-02-28T00:12:44 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Savemart_selectstore"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["SavemartTestCases"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:com.scripted.runners.SaveMartRunner@59309333]" name="runScenario" duration-ms="284178" started-at="2023-02-28T00:12:44 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-02-28T00:17:28 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["savemart_add_the_product"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["SavemartTestCases"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Object healing  unsuccesful,please refer self healing report.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Object healing  unsuccesful,please refer self healing report.
+at org.testng.Assert.fail(Assert.java:97)
+at com.scripted.web.WebHandlers.initHeal(WebHandlers.java:138)
+at com.scripted.web.WebHandlers.clickByJsExecutor(WebHandlers.java:191)
+at com.scripted.web.webstepdefs.NewPage.select_shop(NewPage.java:143)
+at com.scripted.web.webstepdefs.stepdefinitions.select_pro_add_cart(stepdefinitions.java:190)
+at ✽.user select the product and add to the cart(file:Features/selfhealing/saveMart.feature:12)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.scripted.runners.SaveMartRunner@59309333]" name="tearDownClass" is-config="true" duration-ms="1439" started-at="2023-02-28T00:17:28 IST" finished-at="2023-02-28T00:17:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.scripted.runners.SaveMartRunner@59309333]" name="teardown" is-config="true" duration-ms="23176" started-at="2023-02-28T00:17:30 IST" finished-at="2023-02-28T00:17:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.scripted.runners.SaveMartRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

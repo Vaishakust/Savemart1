@@ -1,0 +1,28 @@
+{
+  "testCase" : [ {
+    "testStep" : [ {
+      "technology" : "web",
+      "scrnShotPath" : "_28_02_2023_12_15_34_1534_AM",
+      "excptnMsg" : "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@aria-label='Shop']//span[contains(text(),'Shop123')]\"}\n  (Session info: chrome=110.0.5481.104)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'B300LCOK', ip: '192.168.29.58', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.104, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\\Users\\188162\\AppData\\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:53195}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 4fc0450b1eb6f3af50b266ac46c572eb\n*** Element info: {Using=xpath, value=//a[@aria-label='Shop']//span[contains(text(),'Shop123')]}",
+      "action" : "click",
+      "locatorEleMap" : {
+        "css" : " body div[class='page-wrapper'] header[class='main-header hide-for-print v4-header global-search-bar-enabled'] div[class='three-tier-header'] div[class='header-content'] div[class='secondary-menu slide-menu has-secondary-nav'] div[class='secondary-menu__logo-and-icons'] div[class='content-wrapper'] div[class='secondary-nav-wrapper links-6'] nav[aria-label='Primary'] ul li a[aria-label='Shop'] span:nth-child(1)",
+        "xpath_fullXPath" : "/html/body/div[3]/header/div[2]/div[2]/div/div/div/div[2]/nav/ul/li[1]/a/span",
+        "xpath_default" : "//a[@aria-label='Shop']//span[contains(text(),'Shop')]"
+      },
+      "pageName" : "NewPage",
+      "objectName" : "span_aoShop",
+      "appstatus" : false,
+      "failedElement" : "xpath : //a[@aria-label='Shop']//span[contains(text(),'Shop123')]",
+      "healedElement" : "xpath : //a[@aria-label='Shop']//span[contains(text(),'Shop')]",
+      "healStatus" : "success",
+      "testStepFailureReason" : "NoSuchElementException"
+    } ],
+    "testCaseName" : "RemoteTestNG"
+  } ],
+  "noSuchEleCount" : 1,
+  "stleTmeOutCount" : 0,
+  "netwrkErrCount" : 0,
+  "othersCount" : 0,
+  "testRunName" : "TestRun1"
+}

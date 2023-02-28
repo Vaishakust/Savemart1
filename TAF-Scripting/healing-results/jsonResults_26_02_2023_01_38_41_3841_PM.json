@@ -1,0 +1,26 @@
+{
+  "testCase" : [ {
+    "testStep" : [ {
+      "technology" : "web",
+      "scrnShotPath" : null,
+      "excptnMsg" : "org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (498, 1064)\n  (Session info: chrome=110.0.5481.104)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'B300LCOK', ip: '192.168.29.58', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.104, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\\Users\\188162\\AppData\\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:60508}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 32118829606092a65938f9dfa879f785",
+      "action" : "click",
+      "locatorEleMap" : {
+        "//*[@id=\"product-search-results\"]/div[2]/div[3]/div/div[2]/div[1]/div/div/div[2]/div[2]/div/a" : "xpath"
+      },
+      "appstatus" : false,
+      "failedElement" : "xpath : //*[@id=\"product-search-results\"]/div[2]/div[3]/div/div[2]/div[1]/div/div/div[2]/div[2]/div/a",
+      "healedElement" : "null : NA",
+      "healStatus" : "Failure",
+      "objectName" : "selectFirstProduct",
+      "testStepFailureReason" : "ElementClickInterceptedException",
+      "pageName" : "NewPage"
+    } ],
+    "testCaseName" : "RemoteTestNG"
+  } ],
+  "noSuchEleCount" : 0,
+  "stleTmeOutCount" : 0,
+  "netwrkErrCount" : 0,
+  "othersCount" : 1,
+  "testRunName" : "TestRun1"
+}

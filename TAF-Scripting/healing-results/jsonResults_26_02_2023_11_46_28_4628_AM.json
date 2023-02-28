@@ -1,0 +1,33 @@
+{
+  "testCase" : [ {
+    "testStep" : [ {
+      "technology" : "web",
+      "scrnShotPath" : "_26_02_2023_11_46_24_4624_AM",
+      "excptnMsg" : "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[normalize-space()='Select Options1234']\"}\n  (Session info: chrome=110.0.5481.104)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'B300LCOK', ip: '192.168.29.58', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.104, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\\Users\\188162\\AppData\\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:60214}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: e008adc85c74d4dc0ddcd0c8d942f803\n*** Element info: {Using=xpath, value=//span[normalize-space()='Select Options1234']}",
+      "action" : "clickByJsExecutor",
+      "locatorEleMap" : {
+        "xpath_Ancestor" : "//span[normalize-space()='Select Options']/ancestor::*/span[contains(text(),'Select Options')]",
+        "css" : ".product-action-square-button__label",
+        "classname" : "product-action-square-button__label",
+        "xpath_fullXPath" : "/html/body/div[3]/main/div[1]/div/div/div/div[3]/div/ui-view/div/div[2]/div[2]/div[2]/product-card/div/div[2]/a/pre-shopping-cart-button/div/div/span[2]",
+        "xpath_Descendant" : "//span[normalize-space()='Select Options']/parent::*/descendant::span[contains(text(),'Select Options')]",
+        "xpath_Contains" : "//span[contains(text(),'Select Options')]",
+        "xpath_default" : "//span[normalize-space()='Select Options']",
+        "xpath_child" : "//span[normalize-space()='Select Options']/parent::*/child::span[contains(text(),'Select Options')]"
+      },
+      "pageName" : "NewPage",
+      "objectName" : "span_SelectOptions",
+      "failedElement" : "xpath : //span[normalize-space()='Select Options1234']",
+      "healedElement" : "xpath : //span[normalize-space()='Select Options']",
+      "appstatus" : false,
+      "healStatus" : "success",
+      "testStepFailureReason" : "NoSuchElementException"
+    } ],
+    "testCaseName" : "RemoteTestNG"
+  } ],
+  "noSuchEleCount" : 1,
+  "stleTmeOutCount" : 0,
+  "netwrkErrCount" : 0,
+  "othersCount" : 0,
+  "testRunName" : "TestRun1"
+}

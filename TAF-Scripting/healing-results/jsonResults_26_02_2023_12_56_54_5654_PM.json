@@ -1,0 +1,39 @@
+{
+  "testCase" : [ {
+    "testStep" : [ {
+      "technology" : "web",
+      "scrnShotPath" : null,
+      "excptnMsg" : "org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class=\"nav-menu__item-link-name\">...</span> is not clickable at point (306, 156). Other element would receive the click: <div class=\"onetrust-pc-dark-filter ot-fade-in\" style=\"z-index:2147483645;\"></div>\n  (Session info: chrome=110.0.5481.104)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'B300LCOK', ip: '192.168.29.58', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.104, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\\Users\\188162\\AppData\\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:56419}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 510930eff71dfeac054c86ec056e66d8",
+      "action" : "click",
+      "locatorEleMap" : {
+        "//span[normalize-space()='New In']" : "xpath"
+      },
+      "pageName" : "NewPage",
+      "objectName" : "span_mSNewIn",
+      "appstatus" : false,
+      "failedElement" : "xpath : //span[normalize-space()='New In']",
+      "healStatus" : "Failure",
+      "healedElement" : "null : NA",
+      "testStepFailureReason" : "ElementClickInterceptedException"
+    }, {
+      "technology" : "web",
+      "scrnShotPath" : null,
+      "excptnMsg" : "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[@class='add-to-cart btn btn-secondary']\"}\n  (Session info: chrome=110.0.5481.104)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'B300LCOK', ip: '192.168.29.58', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.104, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\\Users\\188162\\AppData\\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:56419}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 510930eff71dfeac054c86ec056e66d8\n*** Element info: {Using=xpath, value=//button[@class='add-to-cart btn btn-secondary']}",
+      "action" : "click",
+      "locatorEleMap" : { },
+      "pageName" : "NewPage",
+      "objectName" : "button_nLAddtoBag",
+      "appstatus" : false,
+      "failedElement" : "xpath : //button[@class='add-to-cart btn btn-secondary']",
+      "healStatus" : "Failure",
+      "healedElement" : "null : NA",
+      "testStepFailureReason" : "NoSuchElementException"
+    } ],
+    "testCaseName" : "RemoteTestNG"
+  } ],
+  "noSuchEleCount" : 1,
+  "stleTmeOutCount" : 0,
+  "netwrkErrCount" : 0,
+  "othersCount" : 1,
+  "testRunName" : "TestRun1"
+}

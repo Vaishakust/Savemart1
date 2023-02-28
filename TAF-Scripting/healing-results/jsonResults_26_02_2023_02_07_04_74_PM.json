@@ -1,0 +1,26 @@
+{
+  "testCase" : [ {
+    "testStep" : [ {
+      "technology" : "web",
+      "scrnShotPath" : null,
+      "excptnMsg" : "org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (1018, 700)\n  (Session info: chrome=110.0.5481.104)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'B300LCOK', ip: '192.168.29.58', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.104, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\\Users\\188162\\AppData\\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:49395}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 70d471f8fbffcbe55ee9b7545979d4d8",
+      "action" : "click",
+      "locatorEleMap" : {
+        "//button[@class='add-to-cart btn btn-secondary']" : "xpath"
+      },
+      "pageName" : "NewPage",
+      "objectName" : "button_nLAddtoBag",
+      "testStepFailureReason" : "ElementClickInterceptedException",
+      "failedElement" : "xpath : //button[@class='add-to-cart btn btn-secondary']",
+      "healStatus" : "Failure",
+      "healedElement" : "null : NA",
+      "appstatus" : false
+    } ],
+    "testCaseName" : "RemoteTestNG"
+  } ],
+  "noSuchEleCount" : 0,
+  "stleTmeOutCount" : 0,
+  "netwrkErrCount" : 0,
+  "othersCount" : 1,
+  "testRunName" : "TestRun1"
+}

@@ -1,0 +1,42 @@
+{
+  "testCase" : [ {
+    "testStep" : [ {
+      "technology" : "web",
+      "scrnShotPath" : "_27_02_2023_11_16_16_1616_PM",
+      "excptnMsg" : "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@objectspyxpath='objectspy']\"}\n  (Session info: chrome=110.0.5481.104)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'B300LCOK', ip: '192.168.29.58', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.104, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\\Users\\188162\\AppData\\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:65141}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: cb87b5cc3130ba73a0588ceafef18df9\n*** Element info: {Using=xpath, value=//div[@objectspyxpath='objectspy']}",
+      "action" : "click",
+      "locatorEleMap" : {
+        "classname" : "mct-img",
+        "xpath_fullXPath" : "/html/body/div[3]/main/div[1]/div/div/div/div[2]/mct-templater-column-cards/div/div/div/div[2]/figure/a/mct-img/div"
+      },
+      "testStepFailureReason" : "NoSuchElementException",
+      "pageName" : "NewPage",
+      "objectName" : "div_vC",
+      "appstatus" : false,
+      "healStatus" : "success",
+      "failedElement" : "xpath : //div[@objectspyxpath='objectspy']",
+      "healedElement" : "xpath : /html/body/div[3]/main/div[1]/div/div/div/div[2]/mct-templater-column-cards/div/div/div/div[2]/figure/a/mct-img/div"
+    }, {
+      "technology" : "web",
+      "scrnShotPath" : null,
+      "excptnMsg" : "org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div ng-if=\"!$ctrl.forceReload\" class=\"mct-img\" style=\"border: 2px solid red; outline: red solid 2px;\">...</div> is not clickable at point (625, 120). Other element would receive the click: <div class=\"content-wrapper\">...</div>\n  (Session info: chrome=110.0.5481.104)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'B300LCOK', ip: '192.168.29.58', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.104, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\\Users\\188162\\AppData\\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:65141}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: cb87b5cc3130ba73a0588ceafef18df9",
+      "action" : "click",
+      "locatorEleMap" : {
+        "/html/body/div[3]/main/div[1]/div/div/div/div[2]/mct-templater-column-cards/div/div/div/div[2]/figure/a/mct-img/div" : "xpath"
+      },
+      "testStepFailureReason" : "ElementClickInterceptedException",
+      "pageName" : null,
+      "objectName" : null,
+      "appstatus" : false,
+      "healStatus" : "Failure",
+      "failedElement" : "xpath : /html/body/div[3]/main/div[1]/div/div/div/div[2]/mct-templater-column-cards/div/div/div/div[2]/figure/a/mct-img/div",
+      "healedElement" : "null : NA"
+    } ],
+    "testCaseName" : "RemoteTestNG"
+  } ],
+  "noSuchEleCount" : 1,
+  "stleTmeOutCount" : 0,
+  "netwrkErrCount" : 0,
+  "othersCount" : 1,
+  "testRunName" : "TestRun1"
+}

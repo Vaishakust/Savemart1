@@ -1,0 +1,32 @@
+{
+  "testCase" : [ {
+    "testStep" : [ {
+      "technology" : "web",
+      "scrnShotPath" : "_26_02_2023_02_50_27_5027_PM",
+      "excptnMsg" : "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[normalize-space()='New In1234']\"}\n  (Session info: chrome=110.0.5481.104)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'B300LCOK', ip: '192.168.29.58', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.104, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\\Users\\188162\\AppData\\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:56311}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 9fe9d06195b75d762daa74010f1117cc\n*** Element info: {Using=xpath, value=//span[normalize-space()='New In1234']}",
+      "action" : "click",
+      "locatorEleMap" : {
+        "xpath_Ancestor" : "//span[normalize-space()='New In']/ancestor::*/span[@class= 'nav-menu__item-link-name']",
+        "css" : " li[class='nav-menu__item nav-menu__item--item-20804c7761799c056e8207e7cb d-lg-inline-block px-lg-3'] a[class='nav-menu__item-link nav-menu__item-link--level-1 d-block d-lg-inline-block text-uppercase'] span[class='nav-menu__item-link-name']",
+        "classname" : "nav-menu__item-link-name",
+        "xpath_fullXPath" : "/html/body/div[2]/header/nav/nav/div[3]/ul/li[1]/a/span[1]",
+        "xpath_Descendant" : "//span[normalize-space()='New In']/parent::*/descendant::span[@class= 'nav-menu__item-link-name']",
+        "xpath_default" : "//span[normalize-space()='New In']",
+        "xpath_child" : "//span[normalize-space()='New In']/parent::*/child::span[@class= 'nav-menu__item-link-name']"
+      },
+      "objectName" : "span_mSNewIn",
+      "testStepFailureReason" : "NoSuchElementException",
+      "pageName" : "NewPage",
+      "healedElement" : "xpath : //span[normalize-space()='New In']",
+      "failedElement" : "xpath : //span[normalize-space()='New In1234']",
+      "healStatus" : "success",
+      "appstatus" : false
+    } ],
+    "testCaseName" : "RemoteTestNG"
+  } ],
+  "noSuchEleCount" : 1,
+  "stleTmeOutCount" : 0,
+  "netwrkErrCount" : 0,
+  "othersCount" : 0,
+  "testRunName" : "TestRun1"
+}
